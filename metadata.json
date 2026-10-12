@@ -1,0 +1,6 @@
+{
+  "name": "ScrollSnap",
+  "description": "Production-quality scrolling screenshot capture tool with smart frame stitching, floating controls, and Quick Settings tile integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

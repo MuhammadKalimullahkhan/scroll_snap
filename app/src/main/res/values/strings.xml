@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ScrollSnap</string>
+    <string name="tile_label">Long Screenshot</string>
+    <string name="tile_subtitle">Tap to capture</string>
+    
+    <!-- Notification strings -->
+    <string name="notification_channel_capture_name">Screen Capture Service</string>
+    <string name="notification_channel_capture_desc">Shows ongoing capture notification with stop action</string>
+    <string name="notification_channel_saved_name">Screenshot Saved</string>
+    <string name="notification_channel_saved_desc">Notifications when long screenshots are saved</string>
+    <string name="notification_capture_title">Screen capture is active</string>
+    <string name="notification_capture_text">ScrollSnap overlay is running. Tap Stop to finish.</string>
+    <string name="notification_action_stop">Stop</string>
+    <string name="notification_saved_title">Long Screenshot Saved</string>
+    <string name="notification_saved_text">Tap to view your stitched screenshot in gallery.</string>
+    <string name="notification_saved_action_view">View</string>
+    
+    <!-- Permissions and disclosures -->
+    <string name="disclosure_overlay_title">Display Over Other Apps</string>
+    <string name="disclosure_overlay_desc">ScrollSnap requires overlay permission to show floating capture controls (Capture and Save buttons) above the apps you want to screenshot. No personal data or screen content is transmitted off your device.</string>
+    <string name="disclosure_notification_title">Notification Permission</string>
+    <string name="disclosure_notification_desc">Required by Android to show the ongoing screen capture status and notify you with a quick shortcut when your screenshot is saved.</string>
+    <string name="btn_grant_permission">Grant Permission</string>
+    <string name="btn_permission_granted">Granted</string>
+    <string name="btn_start_capture">Start Screen Capture</string>
+    
+    <!-- Capture & Stitching Toasts / Messages -->
+    <string name="toast_frame_captured">Frame %1$d captured</string>
+    <string name="toast_no_scroll_detected">No new scroll detected. Please scroll down before capturing.</string>
+    <string name="toast_secure_window">Protected content detected (DRM or FLAG_SECURE). Cannot capture.</string>
+    <string name="toast_stitching">Stitching screenshots…</string>
+    <string name="toast_screenshot_saved">Screenshot saved to Pictures/Screenshots</string>
+    <string name="toast_stitch_failed">Failed to stitch frames. Saving raw frames instead.</string>
+    <string name="toast_session_ended">Capture session ended</string>
+    <string name="toast_rotation_detected">Device rotated. Capture session ended to prevent distortion.</string>
+</resources>

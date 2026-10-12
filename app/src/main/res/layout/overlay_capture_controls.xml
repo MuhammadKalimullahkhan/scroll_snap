@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlay_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_floating_pill"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:elevation="8dp">
+
+    <!-- Drag handle indicator -->
+    <ImageView
+        android:id="@+id/btn_drag_handle"
+        android:layout_width="28dp"
+        android:layout_height="48dp"
+        android:padding="6dp"
+        android:contentDescription="Drag to move overlay"
+        android:src="@drawable/ic_tile_capture"
+        android:tint="#94A3B8" />
+
+    <!-- Captured frames counter badge -->
+    <TextView
+        android:id="@+id/tv_frame_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_badge_pill"
+        android:text="0"
+        android:textColor="#F1F5F9"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!-- Capture (down arrow) Button -->
+    <ImageButton
+        android:id="@+id/btn_capture_step"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_circle_button"
+        android:contentDescription="Capture frame and scroll down"
+        android:padding="12dp"
+        android:src="@drawable/ic_capture_arrow" />
+
+    <!-- Stop / Save (checkmark) Button -->
+    <ImageButton
+        android:id="@+id/btn_save_finish"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_circle_button_save"
+        android:contentDescription="Stop and save stitched screenshot"
+        android:padding="12dp"
+        android:src="@drawable/ic_capture_save" />
+
+    <!-- Cancel / Close Button -->
+    <ImageButton
+        android:id="@+id/btn_cancel_session"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/bg_circle_button_close"
+        android:contentDescription="Cancel capture session"
+        android:padding="8dp"
+        android:src="@drawable/ic_capture_close" />
+
+</LinearLayout>
